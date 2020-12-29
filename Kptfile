@@ -4,3 +4,10 @@ metadata:
   name: cluster-autoscaler
 packageMetadata:
   shortDescription: sample description
+openAPI:
+  definitions:
+    io.k8s.cli.setters.value:
+      x-k8s-cli:
+        setter:
+          name: cluster_name
+          value: ""
