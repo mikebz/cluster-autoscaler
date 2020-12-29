@@ -6,7 +6,7 @@ sample description
 ## Usage
 
 ### Fetch the package
-`kpt pkg get REPO_URI[.git]/PKG_PATH[@VERSION] cluster-autoscaler`
+`kpt pkg get https://github.com/mikebz/cluster-autoscaler cluster-autoscaler`
 Details: https://googlecontainertools.github.io/kpt/reference/pkg/get/
 
 ### View package content
@@ -18,7 +18,7 @@ Details: https://googlecontainertools.github.io/kpt/reference/cfg/tree/
 Details: https://googlecontainertools.github.io/kpt/reference/cfg/list-setters/
 
 ### Set a value
-`kpt cfg set cluster-autoscaler NAME VALUE`
+`kpt cfg set cluster-autoscaler cluster_name my-cluseter`
 Details: https://googlecontainertools.github.io/kpt/reference/cfg/set/
 
 ### Apply the package
