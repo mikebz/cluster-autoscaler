@@ -1,7 +1,7 @@
 # cluster-autoscaler
 
 ## Description
-sample description
+Sample that shows how to use a setter to set the cluster name for cluster-autoscaler.
 
 ## Usage
 
